@@ -1,0 +1,11 @@
+framework module LocoFramework {
+  umbrella header "LocoFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module LocoFramework.Swift {
+    header "LocoFramework-Swift.h"
+    requires objc
+}
